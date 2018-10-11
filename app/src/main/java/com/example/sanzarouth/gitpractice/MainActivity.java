@@ -15,8 +15,11 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = findViewById(R.id.button);
 
+        Button button2 = findViewById(R.id.button2);
+
         final int first = getResources().getColor(R.color.colorAccent);
         final int second = getResources().getColor(R.color.colorPrimary);
+        final int third = getResources().getColor(R.color.colorPrimaryDark);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +32,20 @@ public class MainActivity extends AppCompatActivity {
                    view.setBackgroundColor(second);
                 } else {
                     view.setBackgroundColor(first);
+                }
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ColorDrawable buttonColor = (ColorDrawable) view.getBackground();
+                int colorId = buttonColor.getColor();
+
+                if (colorId == third) {
+                    view.setBackgroundColor(second);
+                } else {
+                    view.setBackgroundColor(third);
                 }
             }
         });
