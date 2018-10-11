@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         // Adding comments to commit things lalala
         // making more changes
         // and even more changes
+        // changes to squash
+        
 
         Button button2 = findViewById(R.id.button2);
 
