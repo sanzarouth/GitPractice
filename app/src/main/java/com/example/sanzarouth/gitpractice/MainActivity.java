@@ -19,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
         // making more changes
         // and even more changes
         // changes to squash
+
+        // want to add stash to this
+
+	// Testing 2nd commit
         
 
         Button button2 = findViewById(R.id.button2);
