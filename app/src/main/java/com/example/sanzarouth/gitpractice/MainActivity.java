@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = findViewById(R.id.button);
 
+        // Adding comments to commit things lalala
+        // making more changes
+        // and even more changes
+
         Button button2 = findViewById(R.id.button2);
 
         final int first = getResources().getColor(R.color.colorAccent);
